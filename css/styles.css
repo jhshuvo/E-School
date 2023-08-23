@@ -1,0 +1,253 @@
+
+/* =========font face connects ==== */
+@font-face{
+    src: url(../fonts/poppins/poppins-regular.ttf);
+    font-family:Poppins-regular;
+}
+@font-face{
+    src: url(../fonts/poppins/poppins-medium.ttf);
+    font-family:Poppins-medium;
+}
+@font-face{
+    src: url(../fonts/poppins/poppins-bold.ttf);
+    font-family:Poppins-bold;
+}
+@font-face{
+    src: url(../fonts/roboto/roboto-regular.ttf);
+    font-family:Roboto-regular;
+}
+
+/* Common css starts */
+body{
+    font-family:Poppins-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+/* Common css ends */
+
+/* header starts */
+header{
+    padding: 17px 0  ;
+    background-color:#DAFFED;
+}
+.menu ul li a{
+    padding: 0 25px !important;
+    color: black !important;
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+
+.btn_common {
+    font-family:Roboto-regular;
+    background-color: #21B573;
+    color: #ffffff !important ;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_sign{
+    padding: 12px 28px;
+   
+}
+.btn_common:hover{
+    background-color: #FD511A;
+
+}
+.btn_common:active{
+    background-color: #FD511A !important;
+
+}
+/* header ends */
+
+
+/* ---banner_statrs----- */
+.banner{
+    padding-bottom: 65px;
+    background-color:#DAFFED;
+} 
+.b_p1{
+    color: #FD511A;
+}
+
+.b_h1{
+    padding: 0 23px 0 0;
+    margin: 10px 0 20px;
+    font-size: 48px;
+    font-family:Poppins-bold;
+    color: black;
+    line-height: 70px;
+    
+}
+.b_h1 span{
+    color: #21B573;
+}
+.b_p2{
+    color: black;
+    line-height: 36px;
+}
+.btn_link{
+    margin-top: 14px;
+    width: 155px;
+    height:45px;
+
+}
+
+/* .b_img{}
+.b_img img{} */
+
+/*----- banner _end--- */
+
+/* feature starts -- */
+
+.feature{
+    padding-bottom: 100px;
+}
+.s_feature{
+    margin-top:45px ;
+    padding: 55px 0 50px;
+    background-color:#DAFFED;
+    border-radius: 10px ;
+    transition: .33s;
+}
+.s_feature:hover{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    transform: scale(.9);
+}
+.s_img{
+    margin: 0 auto;
+    width: 65px;
+    height:80px;
+}
+/* .s_img img{    */
+
+.f_h2{
+    margin-top: 20px;
+    font-family:Poppins-medium;
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+}
+
+/* ---feature ends --- */
+
+/*----- coureses starst--- */
+.cm_padding{
+    padding-bottom: 100px;
+}
+.cm_h2{
+    
+    font-family:Poppins-bold;
+    font-size: 36px;
+    color:black;
+
+}
+
+.c_item{
+    margin-top: 60px;
+    padding: 24px 20px 30px;
+    border-radius: 18px;
+     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.c_h2{
+    margin: 20px 0 4px;
+    font-family:Poppins-medium;
+    font-size: 24px;
+    color: black;
+    line-height: 36px; 
+    float: inline-start;
+}
+.c_p{
+    color: #585859;
+}
+.c_btn{
+    margin: 20px 0 35px;
+    width: 140px;
+    height: 35px;
+}
+
+/* item _footer */
+ /* .item_footer{}
+ .c_left{}
+ .c_left ul li{} */
+
+ .list-inline-item:not(:last-child) {
+    margin-right: 2px;
+}
+ .c_left ul li img, .c_right ul li img{
+    width: 20px;
+ }
+
+
+.c_left ul li span,
+.c_right ul li span{
+    font-family:Poppins-medium;
+    font-size: 16px;
+    color: black;
+    
+ }
+
+/*----- coureses starst--- */
+/* ------testimoial starts---- */
+.tm_items{
+    margin-top: 60px;
+}
+/* .tm_img{}
+.tm_img img{}
+.tm_text{} */
+.tm_p{
+    color: #000;
+    line-height: 30px;
+}
+
+/* ------testimoial ends--- */
+
+/* ----footer top starts---- */
+.footer_top{
+    padding: 55px 0 50px;
+    background-color: #282531;
+}
+.ft_titel p {
+        margin-right: 125px;
+        color: #ffffff;
+    }
+.ft_link{
+    padding-top:8px ;
+}
+.ft_link h2{
+    color: #ffffff;
+    font-family:Poppins-bold ;
+    font-size: 18px;
+}
+.ft_link ul li a{
+    margin-top: 5px;
+    display: block;
+    color: #ffffff;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+
+
+/*------- footer top end----------*/
+footer{
+    padding: 20px 0 26px;
+    background-color: #282531; 
+
+
+}
+footer p{
+    line-height: 30px;
+    color: #ffffff;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
